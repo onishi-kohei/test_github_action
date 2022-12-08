@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [opened, reopened]
 jobs:
-  Explore-GitHub-Actions:
+  Sleep-30s:
     runs-on: ubuntu-latest
     steps:
       - name: Sleep for 30 seconds
