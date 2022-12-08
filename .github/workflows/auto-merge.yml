@@ -5,9 +5,8 @@ on:
 permissions:
   pull-requests: write
   contents: write
-
 jobs:
-  dependabot:
+  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
       - name: Enable auto-merge
