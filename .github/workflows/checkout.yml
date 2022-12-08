@@ -1,10 +1,8 @@
 name: Checkout Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on:
-  check_run:
-    types: [completed]
+on: pull_request_target
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-          - run: echo "checkout"
+      - run: echo "checkout"
